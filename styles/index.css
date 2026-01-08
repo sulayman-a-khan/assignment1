@@ -133,3 +133,66 @@ header {
     align-items: center;
 }
 
+.notes-section {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 44px 120px 0px 120px;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.notes-section-header h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 16px;
+}
+
+.notes-section-header p {
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+
+
+.cards-container {
+    display: flex;     
+    gap: 24px;            
+    justify-content: center; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+   
+    max-width: 300px;      
+    background: #ffffff;
+    padding: 24px 24px;
+    border-radius: 12px;
+    
+}
+
+
+.icon-circle {
+    width: 64px;
+    height: 64px;
+    background-color: #f95555; 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.card h3 {
+    font-size: 20px;
+    color: #0d1b2a;
+    margin:16px 16px
+}
+
+.card p {
+    font-size: 14px;
+    color: #627382;
+    line-height: 20px;
+}
