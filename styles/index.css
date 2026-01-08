@@ -84,7 +84,7 @@ header {
 
 
 
-h1 {
+.hero h1 {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.2;
@@ -95,7 +95,7 @@ h1 {
     color: #30b868;
 }
 
-p {
+.hero p {
     font-size: 18px;
     line-height: 28px;
     color: white;
