@@ -9,9 +9,9 @@ body {
     background-color: #ffffff;
 }
 header {
-    border: 1px solid #848484;
     max-width: 1600px;
     margin: 0 auto;
+    padding: 16px 0;
 }
 
 .container {
@@ -54,4 +54,82 @@ header {
     font-size: 16px;
 }
 
+.hero {
+   
+    background: url('../images/hero-bg.png');
+    background-repeat: no-repeat;
+    padding: 115px 12px 180px 12px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.hero-container {
+    max-width: 1380px; 
+    margin: 0 auto;
+    color: white;
+    padding: 0 20px;
+}
+
+.offer-button {
+    width: 229px;
+    color: #30B868;
+    background: white;
+    margin: 0 auto;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+
+
+h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 16px 0px;
+}
+
+.green-text {
+    color: #30b868;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.hero-btns {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.first-button {
+    background: #30b868;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.second-button {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
 
