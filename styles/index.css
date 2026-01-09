@@ -287,4 +287,23 @@ header {
     margin-bottom: 24px;
     box-shadow: #0d1b2a33 0px 4px 6px -1px, #0d1b2a1a 0px 2px 4px -1px;
 }
-    
+.footer-section {
+    display: flex;
+    justify-content: center;
+    background-color: #121c33;
+    width: 1600px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.footer-social-icon p {
+    color: white;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 71%;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid white;
+}
+
