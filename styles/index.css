@@ -47,6 +47,7 @@ header {
   border-radius: 6px;
   text-decoration: none;
   border: none;
+  cursor: pointer;
   font-weight: 600;
   font-size: 16px;
 }
@@ -265,6 +266,7 @@ header {
   border-radius: 6px;
   text-decoration: none;
   border: none;
+  cursor: pointer;
   font-weight: 600;
   font-size: 16px;
   margin-bottom: 24px;
@@ -310,10 +312,23 @@ header {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  width: 220px;
 }
 
 .social-icons {
   display: flex;
   gap: 16px;
 
+}
+
+.btn1:hover,
+.menu a:hover,
+.offer-button:hover,
+.first-button:hover,
+.second-button:hover,
+.q-section-container button:hover {
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  color: #fff;
+  box-shadow: 0 10px 25px rgba(221, 36, 118, 0.5);
+  transform: translateY(-3px) scale(1.03);
 }
